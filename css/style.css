@@ -1,0 +1,101 @@
+body{
+    font-family: Open sans, sans-serif;
+}
+
+header{
+    height: 100px;
+    color: #000;
+    border-bottom: 1px;
+    margin-bottom: 40px;
+}
+
+@media screen and(max-width: 768px) {
+    header{
+    margin-bottom: 20px;
+    height: 200px;
+    }
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+@media screen and(max-width:768px) {
+    h1{
+        font-size: 36px;
+    }
+}
+
+section{
+    margin: 0% auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}   
+
+.card{
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    vertical-align: top;
+    max-height: 100%;
+}
+
+@media screen and(max-width:768px) {
+    .card{
+        display: block;
+        margin: 20px 10px 20px 10px;
+    }
+}
+
+.card img{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and(max-width:768px) {
+    .card img{
+        width: 100px;
+        height: 100px;
+    } 
+}
+
+.card details{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+@media screen and(max-width:768px) {
+    .card details{
+        width: 100px;
+    }
+}
+
+.card details summary{
+    font-size: 18px;
+    padding: 10px;
+}
+
+@media screen and(max-width:768) {
+    .card details summary{
+        font-size: 16px;
+    }  
+} 
+
+
+.card details p{
+    padding: 0px auto;
+}
+
+@media screen and(max-width:768) {
+    .card details p{
+        font-size: 14px;
+    }
+}
+
+.card details blockquote{
+    font-style: italic;
+    color: #777;
+}
